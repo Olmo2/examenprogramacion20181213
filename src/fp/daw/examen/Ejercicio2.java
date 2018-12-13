@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio2 {
 
 	/* 
@@ -13,7 +15,32 @@ public class Ejercicio2 {
 	 *  
 	 */
 	
-	public static ...
+	/*hay un método en la clase Array llamado "binarySearch"*/
+	/*Primero se ordena con "short"*/
+	
+	
+	public static int busquedaBinaria (int [] nums, int numero) {
+
+		
+	
+	
+	}
+	
+	
+
+//		int indice=0;
+//		
+//		for(int i=0; i<nums.length;i++) {
+//			if(nums[i]==numero) {
+//				indice = i;
+//				i=nums.length;
+//			}else if(i==nums.length - 1) {
+//				indice = numero -1;
+//			}
+//		}
+//		
+//		return indice;
+//	}
 	
 	
 	/*
@@ -32,8 +59,15 @@ public class Ejercicio2 {
 	 */
 	
 	public static void main(String[] args) {
+		Random r = new Random();
+		int longitud = r.nextInt (101) + 100;
 		
-		
+		int [] vector = new int [longitud];
+		for(int i = 0; i<vector.length; i++) {
+			int valor = r.nextInt (Integer.MAX_VALUE-1);
+			if()
+			vector[i] = valor;
+		}
 	}
 
 }

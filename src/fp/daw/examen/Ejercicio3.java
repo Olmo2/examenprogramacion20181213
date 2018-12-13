@@ -18,7 +18,14 @@ public class Ejercicio3 {
 	 *  
 	 */
 	
-	public static ...
+	public static void stringToArray2D(String txt) {
+		
+		char [] carac = txt.toCharArray();
+		/*Convierte una cadena en un array de caracteres*/
+		for(int i=0;i< carac.length;i++) {
+			System.out.println(carac[i]);
+		}
+	}
 	
 	/*
 	 * 1 punto
@@ -31,7 +38,7 @@ public class Ejercicio3 {
 	 */
 	
 	public static void main(String[] args) {
-		
+		stringToArray2D("hola");
 	}
 
 }
